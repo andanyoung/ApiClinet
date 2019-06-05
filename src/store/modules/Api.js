@@ -14,7 +14,7 @@ const Api = {
       return new Promise((resolve, reject) => {
         request({
           method: 'get',
-          url: '/NBLot/testApi/Directory/',
+          url: '/NBLot/testapi/Directory/',
           params: params
         })
           .then(res => {
@@ -30,7 +30,7 @@ const Api = {
       return new Promise((resolve, reject) => {
         request({
           method: 'get',
-          url: '/NBLot/testApi/Directory/actions',
+          url: '/NBLot/testapi/Directory/actions',
           params: params
         })
           .then(res => {
